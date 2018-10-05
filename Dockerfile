@@ -1,12 +1,13 @@
 FROM python:3
 
+
+
+COPY . /usr/src/app
+
 WORKDIR /usr/src/app
 
-COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-VOLUME /usr/src/app
+EXPOSE 5002
 
-EXPOSE 5500
-
-CMD [ "python", "./webchat.py" ]
+CMD [ "./run_server.bash" ]
