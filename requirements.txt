@@ -1,4 +1,4 @@
-git+git@github.com:howl-anderson/rasa-addons.git@e2c3a9bf71d8c2b24fac2795dc4e2b609f95d3bd#egg=rasa_addons
+git+https://github.com/howl-anderson/rasa-addons.git
 git+https://github.com/mit-nlp/MITIE.git
 
 absl-py==0.5.0
