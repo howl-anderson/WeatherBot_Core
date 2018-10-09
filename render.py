@@ -14,7 +14,7 @@ def render(input_file, output_file):
         nlu_url = os.environ.get('NLU_URL', "http://127.0.0.1:5000")
         print("nlu will connect to {}".format(nlu_url))
 
-        rendered_string = template.render(action_endpoint_url=action_endpoint_url)
+        rendered_string = template.render(action_endpoint_url=action_endpoint_url, nlu_url=nlu_url)
 
         output_fd.write(rendered_string)
 
