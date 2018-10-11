@@ -8,7 +8,7 @@ def render(input_file, output_file):
     with open(input_file, encoding='utf_8') as input_fd, open(output_file, mode='w', encoding='utf_8') as output_fd:
         template = Template(input_fd.read())
 
-        action_endpoint_url = os.environ.get('ACTION_ENDPOINT_URL', "http://0.0.0.0:5055/webhook")
+        action_endpoint_url = os.environ.get('ACTION_ENDPOINT_URL', "http://127.0.0.1:5055/webhook")
         print("action will connect to {}".format(action_endpoint_url))
 
         nlu_url = os.environ.get('NLU_URL', "http://127.0.0.1:5000")
