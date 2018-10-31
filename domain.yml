@@ -46,5 +46,5 @@ templates:
   utter_report_weather:
     - text: "{matches}"
 
-  utter_other:
+  utter_default:
     - text: "系统不明白您说的话"
