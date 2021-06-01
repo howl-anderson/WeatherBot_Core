@@ -92,7 +92,7 @@ twilio==6.18.1
 Twisted==18.7.0
 typing==3.6.6
 tzlocal==1.5.1
-urllib3==1.23
+urllib3==1.26.5
 wcwidth==0.1.7
 websocket-client==0.53.0
 Werkzeug==0.14.1
