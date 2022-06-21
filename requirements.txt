@@ -49,7 +49,7 @@ MarkupSafe==1.0
 matplotlib==2.2.3
 mattermostwrapper==2.1
 networkx==2.2
-numpy==1.15.2
+numpy==1.22.0
 packaging==17.1
 pathlib==1.0.1
 pika==0.11.2
